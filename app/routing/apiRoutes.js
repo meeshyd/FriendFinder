@@ -16,7 +16,7 @@ module.exports = function(app) {
 			var totalDiff = 0;
 			
 			for(var y = 0; y < friendToCompare.scores.length; y++) {
-				var differenceOneScore = Math.abs(friendToCompare.scores[k] - newFriend.scores[y]);
+				var differenceOneScore = Math.abs(friendToCompare.scores[y] - newFriend.scores[y]);
 				totalDiff += differenceOneScore;
 			};
 

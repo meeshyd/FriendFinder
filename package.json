@@ -13,9 +13,6 @@
   },
   "author": "meeshyd",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/meeshyd/FriendFinder/issues"
-  },
   "homepage": "https://github.com/meeshyd/FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
