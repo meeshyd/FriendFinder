@@ -1,7 +1,7 @@
 let friends = [
 {
   "name":"Grumpy Cat",
-  "photoURL":"http://lorempixel.com/200/200/people/",
+  "photoURL":"https://upload.wikimedia.org/wikipedia/commons/e/ee/Grumpy_Cat_by_Gage_Skidmore.jpg",
   "scores":[
       5,
       1,
@@ -17,7 +17,7 @@ let friends = [
 },
 {
   "name":"Stephen Colbert",
-  "photoURL":"http://lorempixel.com/200/200/people/",
+  "photoURL":"https://upload.wikimedia.org/wikipedia/commons/c/c2/Stephen_Colbert_2012_%28cropped%29.jpg",
   "scores":[
       3,
       2,
@@ -32,8 +32,8 @@ let friends = [
     ]
 },
 {
-  "name":"Michelle Didier",
-  "photoURL":"http://lorempixel.com/200/200/people/",
+  "name":"Mariah Carey",
+  "photoURL":"https://upload.wikimedia.org/wikipedia/commons/0/07/MAriah_Carey_2005.jpg",
   "scores":[
       5,
       1,
