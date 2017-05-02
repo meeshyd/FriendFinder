@@ -35,14 +35,14 @@ let friends = [
   "name":"Mariah Carey",
   "photoURL":"https://upload.wikimedia.org/wikipedia/commons/0/07/MAriah_Carey_2005.jpg",
   "scores":[
-      5,
+      2,
       1,
       4,
       4,
       5,
       1,
       2,
-      5,
+      1,
       4,
       1
     ]

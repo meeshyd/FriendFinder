@@ -8,7 +8,7 @@
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lilita+One|Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="public/css/survey.css">
 
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -16,9 +16,9 @@
 </head>
 
 <body>
-
+  
   <div class="container">
-
+    <h1>Friend Finder</h1>
     <h2>Survey Questions</h2>
     <hr>
     <h3>Answer each question based on your preference from 1 (lease true) to 5 (most true).</h5>
@@ -150,17 +150,14 @@
     <br>
 
     <!-- Submit Button -->
-    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
-     Submit</button>
+    <button type="submit" id="submit">Submit</button>
 
     <hr>
-    <footer class="footer">
-      <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/meeshyd/friendfinder">GitHub Repo</a></p>
-      </div>
-    </footer>
 
   </div>
+  <footer class="footer">
+        <p><a href="/api/friends" target="_blank">API Friends List</a> | <a href="https://github.com/meeshyd/friendfinder" target="_blank">GitHub Repo</a></p>
+    </footer>
 
   <!-- Modal -->
   <div id="results-modal" class="modal fade" role="dialog">
