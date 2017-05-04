@@ -1,6 +1,9 @@
-body, html, a {
+body, a {
 	text-align: left;
+	background-attachment: fixed;
+		transition: 0.5s ease ;
 }
+
 
 h1 {
 	text-align: center;
@@ -19,11 +22,13 @@ h3 {
 h4 {
 	color: #727272;
 }
-
+hr{
+	border-top: 1px solid #c9ebff;
+}
 #survey {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
-	background-color: #fff;
+	background-color: rgba(240, 249, 255, 0.91);
 	color: #fc9c6c;
 	padding: 20px;
 	padding-right: 50px;
@@ -33,19 +38,12 @@ h4 {
 
 .form-control {
   font-size: 16px;
+  outline: none;
+  border: none;
 }
 
 button {
-	background-color: #03a9f4;
-	color: #fff;
-	border: none;
-	border-radius: 15px;
-}
-
-button:hover, .btn:hover {
-    background-color: #fff; 
-    color: #03a9f4;
-    border: 3px solid #03a9f4;
+	margin-top:2%;
 }
 
 img {
@@ -68,8 +66,14 @@ button.close:hover {
 	font-size: 1.1em;
 	width: 150px;
 	height: 40px;
+	transition: all 0.5s ease;
+	border: 1px solid #03a9f4;
 }
-
+.btn:hover{
+    border: 1px solid rgb(248, 105, 184);
+    color: rgb(248, 105, 184);
+    background-color: #fff;
+}
 .btn:active:focus, .btn:focus {
     outline: none;
 }

@@ -7,11 +7,20 @@ body {
 	text-align: center;
 	width: 100%;
 	margin: 0 auto;
-	background-color: #03a9f4;
+	/*background-color: #03a9f4;*/
 	color: #fff;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	background: 
+    linear-gradient(
+      rgba(0, 166, 244, 0.45), 
+      rgba(0, 0, 100, 0.45)
+    ),
+    /* bottom, image */
+    url(../friends.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 * {
@@ -24,6 +33,7 @@ body {
 
 a {
 	color: #fff;
+	transition: all 0.5s ease;
 }
 
 a:focus, a:hover {
@@ -59,12 +69,18 @@ button {
 	border-radius: 15px;
 	border: none;
 	cursor: pointer;
+	margin-top: 5%;
+    transition: all 0.5s ease;
+    border: 3px solid #fff;
+}
+button:active, button:focus {
+	outline: none;
 }
 
 button:hover {
-    background-color: #03a9f4; 
+    background-color: rgba(246, 63, 164, 0.78);
     color: #fff;
-    border: 3px solid #fff;
+
 }
 
 footer {
