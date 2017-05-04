@@ -14,13 +14,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-app.use(express.static('app'));
+app.use(express.static('app/public/'));
 
 //server routes
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
-
-// app.use('app/public/css',express.static(path.join(__dirname, 'public/css')));
 
 //listener to start server
 app.listen(PORT, function() {
