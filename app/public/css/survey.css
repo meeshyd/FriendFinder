@@ -24,6 +24,10 @@ h2 {
 	border-radius: 20px;
 }
 
+.form-control {
+  font-size: 16px;
+}
+
 button, .btn-default {
 	background-color: #fc9c6c;
 	color: #fff;
