@@ -19,17 +19,26 @@ h2 {
 	background-color: #fff;
 	color: #fc9c6c;
 	padding: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
 	border-radius: 20px;
 }
 
-button {
+button, .btn-default {
 	background-color: #fc9c6c;
 	color: #fff;
+	border: none;
 }
 
-button:hover {
+button:hover, .btn-default:hover {
     background-color: #fff; 
     color: #fc9c6c;
+    border: 3px solid #fc9c6c;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #fc9c6c;
+    background-color: #fff;
     border: 3px solid #fc9c6c;
 }
 

@@ -32,6 +32,7 @@ module.exports = function(app) {
 			differencesArray[x] = totalDiff;
 		};
 		
+		console.log("----------------------\nNew User Name: " + newFriend.name)
 		console.log("New User Scores: " + newFriend.scores)
 		console.log("Score Differences: " + differencesArray);
 
