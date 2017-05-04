@@ -113,7 +113,7 @@
         <option value=""></option>
         <option value="1">Damn it's dark down here.</option>
         <option value="2">I was hoping for a pyramid.</option>
-        <option value="3">Inclined to mischeif.</option>
+        <option value="3">Inclined to mischief.</option>
         <option value="4">Died tragically from rescuing family from the wreckage of a destroyed sinking battleship.</option>
         <option value="5">Never killed a man that did not need killing.</option>
       </select>
@@ -189,6 +189,12 @@
   <script type="text/javascript">
 
     $("#submit").on("click", function(event) {
+        
+        if($('.form-control').val()===""){
+          
+          alert("Please fill in all survey fields before submitting.")
+        
+        }else{
         let surveyData = {
           name: $("#name").val(),
           photoURL: $("#photo").val(),
@@ -211,6 +217,7 @@
           $("#match-img").attr("src", data.photoURL);
           $("#results-modal").modal("toggle");  
         });
+      };
     });
 
     $("#modal-submit").on("click", function(event) {
