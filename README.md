@@ -9,6 +9,7 @@ This full-stack site takes in results of users' surveys, then compares their ans
 ![picture alt](README.png "Friend Finder Home")
 
 Friend Finder works finding the difference between current user's scores and the other users' scores, question by question. The differences are added up to calculate the total difference.
+
 	Example:
 	User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
 	User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
