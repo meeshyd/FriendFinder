@@ -23,7 +23,7 @@ The current user is then displayed the name and image of the user with the small
 * jQuery
 * Node.js
 * npm Packages
-	* [Express](https://www.npmjs.com/package/twitter)
-	* [body-parser](https://www.npmjs.com/package/spotify)
+	* [Express](https://www.npmjs.com/package/express)
+	* [body-parser](https://www.npmjs.com/package/body-parser)
 * [Bootstrap](http://getbootstrap.com/)
 * [Google Fonts API](https://fonts.google.com)
