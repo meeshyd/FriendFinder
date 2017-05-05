@@ -8,13 +8,13 @@ This full-stack site takes in results of users' surveys, then compares their ans
 
 ![picture alt](README.png "Friend Finder Home")
 
-Friend Finder works by comparing the users survey answers to an array of other survey takers in the following way:
-
-	The difference between current user's scores are compared against those from other users, question by question. The differences are added up to calculate the total difference.
+Friend Finder works finding the difference between current user's scores and the other users' scores, question by question. The differences are added up to calculate the total difference.
 	Example:
 	User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
 	User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
 	Total Difference: 2 + 1 + 2 = 5
+
+The current user is then displayed the name and image of the user with the smallest total difference.
 
 ## Technologies Used:
 
